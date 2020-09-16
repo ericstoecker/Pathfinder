@@ -1,0 +1,260 @@
+.Menu {
+    display: grid;
+    grid-template-rows: 60px 60px 120px;
+}
+
+.Menu h1 {
+    color: white;
+
+    margin: 0px;
+    padding-left: 70px;
+    padding-top: 12px;
+
+    font-size: 40px;
+
+    background-color: #0a1930;
+    background-size: cover;
+}
+
+.Menu h1::selection {
+    background: none;
+}
+
+.Menu h1:hover {
+    cursor: default;
+}
+
+.SelectBar-wrapper {
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto 1260px auto;
+    box-shadow: 0 2px 5px 0 rgb(156, 154, 154);
+    background-color: #34495e;
+}
+
+.SelectBar {
+    height: 60px;
+    grid-column-start: 2;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px 250px;
+    align-items: center;
+}
+
+.SelectBar p {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 21px;
+    color: white;
+    font-weight: 650;
+    margin-top: 19px;
+    text-align: center;
+}
+
+.SelectBar p:hover {
+    cursor: pointer;
+}
+
+.SelectBar p::selection {
+    background: none;
+}
+
+.SelectBar button {
+    margin-left: auto;
+    margin-right: auto;
+
+    outline: none;
+    background-color: #1abc9c;
+    /* height: 35px;
+    width: 140px; */
+    color: white;
+    border: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: #1abc9c;
+
+    font-size: 23px;
+    font-weight: 650;
+    transition: transform 0.2s ease-out;
+    transform: scale(1);
+}
+
+.SelectBar button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+.legend-wrapper {
+    display: grid;
+    grid-template-columns: auto 700px auto;
+}
+
+.legend {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 140px);
+    grid-column-start: 2;
+}
+
+.legend p {
+    color: #34495e;
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.legend p::selection {
+    background: none;
+}
+
+.legend p:hover {
+    cursor: default;
+}
+
+.legend-start-node {
+    display: grid;
+    grid-template-columns: 50px 50px;
+}
+
+#start-node-image {
+    background-image: url('../../images/startNode.png');
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    margin-top: 23px;
+    margin-left: 7px;
+}
+
+.legend-target-node {
+    display: grid;
+    grid-template-columns: 75px 50px;
+    font-size: 24px;
+}
+
+#target-node-image {
+    margin-top: 23px;
+}
+
+.legend-wall-node {
+    display: grid;
+    grid-template-columns: 50px 50px;
+}
+
+#wall-node-image {
+    background-color: #0a1930;
+    width: 23px;
+    height: 23px;
+    margin-top: 23px;
+    margin-left: 7px;
+}
+
+.legend-visited-node {
+    display: grid;
+    grid-template-columns: 70px 50px;
+}
+
+#visited-node-image {
+    background-color: rgb(40, 168, 211);
+    width: 23px;
+    height: 23px;
+    margin-top: 23px;
+    margin-left: 7px;
+}
+
+.legend-path-node {
+    display: grid;
+    grid-template-columns: 50px 50px;
+}
+
+#path-node-image {
+    background-color: yellow;
+    width: 23px;
+    height: 23px;
+    margin-top: 23px;
+    margin-left: 7px;
+}
+
+
+
+.dd {
+    height: 60px;
+    text-align: center;
+}
+
+.dd-header-algo {
+    display: grid;
+    grid-template-columns: 160px auto;
+}
+
+.dd-header-pattern {
+    display: grid;
+    grid-template-columns: 210px auto;
+}
+
+.dd-header-speed {
+    display: grid;
+    grid-template-columns: 170px auto;
+}
+
+.dd p {
+    margin: 0px;
+    font-size: 21px;
+    color: white;
+    font-weight: 650;
+    margin-top: 19px;
+    margin-bottom: 25px;
+}
+
+.arrow-down {
+    color: white;
+    margin-top: 23px;
+}
+
+.dd p::selection {
+    background: none;
+}
+
+.dd p:hover {
+    cursor: pointer;
+}
+
+.dd-list {
+    margin-left: 20px;
+    margin-top: 0px;
+    padding: 0px;
+    background-color: #34495e;
+    width: 170px;
+    border: solid;
+    border-color: #34495e;
+    border-radius: 5px;
+    opacity: 1;
+    position: absolute;
+}
+
+.dd-list-item {
+    color: white;
+    list-style-type: none;
+    border: solid;
+    border-color: #34495e;
+    border-radius: 10px;
+    border-width: 1px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 500;
+}
+
+.dd-list-item:hover {
+    cursor: pointer;
+    border: solid;
+    border-color: #1abc9c;
+    border-radius: 10px;
+    border-width: 1px;
+    background-color: #1abc9c;
+}
+
+
+
+
+
+

@@ -1,0 +1,39 @@
+.Dropdown {
+    height: 60px;
+    text-align: center;
+}
+
+.Dropdown p {
+    font-size: 21px;
+    color: white;
+    font-weight: 650;
+    margin-top: 19px;
+}
+
+.dd-list {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    background-color: #34495e;
+    width: 170px;
+    margin-top: 25px;
+    border: solid;
+    border-color: #34495e;
+    border-radius: 5px;
+}
+
+.dd-list-item {
+    color: white;
+    list-style-type: none;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+
+.dd-list-item:hover {
+    border: solid;
+    border-color: #1abc9c;
+    border-radius: 10px;
+    background-color: #1abc9c;
+}

@@ -1,0 +1,12 @@
+.grid-wrapper {
+    display: grid;
+    grid-template-rows: repeat(25, 28px);
+    border-top: solid;
+    border-width: 1px;
+    border-color: lightblue;
+}
+
+.grid-row {
+    display: grid;
+    grid-template-columns: repeat(58, 1.724%);
+}
